@@ -1,0 +1,28 @@
+# Archivos y directorios que no se deben incluir en el repositorio
+
+# Archivos de configuración de entorno
+.env
+.venv
+
+# Archivos de caché y temporales
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos de logs
+logs/
+*.log
+
+# Archivos de datos de prueba
+tests/data/
+
+# Archivos de documentación generados automáticamente
+docs/_build/
+
+# Archivos de dependencias
+pip-wheel-metadata/
+*.egg-info/
+
+# Archivos de sistema operativo
+*.DS_Store
+Thumbs.db
