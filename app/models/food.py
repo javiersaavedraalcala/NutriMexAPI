@@ -24,4 +24,4 @@ class Food(Base):
     brand = Column(String, nullable=True)
     source = Column(String) # Information source
     created_at = Column(DateTime(timezone=True), server_default=func.now())
-    updated_at = Column(DateTime(timezone=True), onupdate=func.now)
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
